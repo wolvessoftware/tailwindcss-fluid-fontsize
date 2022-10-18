@@ -1,0 +1,33 @@
+{
+  "name": "@wolves.ink/tailwindcss-fluid-fontsize",
+  "version": "v1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolvessoftware/tailwindcss-fluid-fontsize.git"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=2.0.0 || >=3.0.0"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "fluid",
+    "fontsize",
+    "type"
+  ],
+  "author": "Wolves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolvessoftware/tailwindcss-fluid-fontsize/issues"
+  },
+  "homepage": "https://github.com/wolvessoftware/tailwindcss-fluid-fontsize#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24",
+    "tailwindcss-v2": "npm:tailwindcss@^2.2.16"
+  }
+}
