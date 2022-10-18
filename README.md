@@ -8,13 +8,13 @@ Install the plugin from npm:
 
 ```bash
 # Using pnpm
-pnpm install -D tailwindcss-fluid-fontsize
+pnpm install -D @wolves.ink/tailwindcss-fluid-fontsize
 
 # Using npm
-npm install -D tailwindcss-fluid-fontsize
+npm install -D @wolves.ink/tailwindcss-fluid-fontsize
 
 # Using Yarn
-yarn add -D tailwindcss-fluid-fontsize
+yarn add -D @wolves.ink/tailwindcss-fluid-fontsize
 ```
 
 Then add the plugin to your tailwind.config.js file and do your settings if you're not happy with the defaults:
@@ -23,7 +23,7 @@ Then add the plugin to your tailwind.config.js file and do your settings if you'
 // tailwind.config.js
 module.exports = {
   plugins: [
-    require("tailwindcss-fluid-fontsize")(),
+    require("@wolves.ink/tailwindcss-fluid-fontsize")(),
     // ...
   ],
 };
@@ -71,7 +71,7 @@ module.exports = {
     },
   },
   plugins: [
-    require("tailwindcss-fluid-fontsize")({
+    require("@wolves.ink/tailwindcss-fluid-fontsize")({
       screenMin: 20, // 20rem === 320px
       screenMax: 96, // 96rem === 1536px
       unit: "rem", // default is rem but it's also possible to use 'px'
