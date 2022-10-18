@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-fluid-fontsize",
+  "name": "@wolves.ink/tailwindcss-fluid-fontsize",
   "version": "v1.0.0",
   "description": "",
   "main": "src/index.js",
