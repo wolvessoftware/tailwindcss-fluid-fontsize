@@ -83,6 +83,6 @@ module.exports = {
 
 ## Acknowledgements
 
-There is already a fluid type plugin, but there is no fine grain control for diffrent heading sizes
+There is already a fluid type plugin, but there is no fine grain control for different heading sizes
 
 - [Fluid Type](https://github.com/davidhellmann/tailwindcss-fluid-type)
